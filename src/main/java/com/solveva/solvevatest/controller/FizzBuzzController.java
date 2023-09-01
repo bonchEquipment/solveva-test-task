@@ -19,7 +19,6 @@ public class FizzBuzzController {
 
     private final FizzBuzzService service;
 
-    //todo какой метод сделать?
     @PostMapping(value = "/fizzBuzz")
     public ResponseEntity<FizzBuzzResponse> updateGeneralStatistics(@RequestBody FizzBuzzRequest request) {
         log.info("fizzBuzz request {}", request);

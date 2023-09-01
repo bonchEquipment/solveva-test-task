@@ -2,7 +2,7 @@
 Fizz buzz game playable via http
 
 # How to play
-In order to play you should send http post request with body of such format  {
+In order to play you should send http post request for http://host:port//fizzBuzz with body of such format  {
 "numbers" : [1, 2, 3, 55, 15, 30]
 }
 and aslo add header Content-Type=application/json
